@@ -7,32 +7,32 @@ body {
     font-family: sans-serif;
 }
 
-h1 {
-    text-align: center;
-}
-
 .base-margin-down {
     margin-bottom: 20px;
 }
 
-.awesome-list {
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.no-bullets {
     list-style: none;
-    margin-bottom: 20px;
 }
 
 .awesome-list-board {
     border-bottom: 1px solid #ddd;
-    
-    padding: 20px;
-}
-
-.awesome-list-footer {
-    text-align: center;
-    
+    padding: 30px 20px;
 }
 
 .awesome-bar {
-    list-style: none;
     display: flex;
     position: relative;
     padding: 20px 0;
@@ -50,30 +50,17 @@ h1 {
 .awesome-bar li {  
     flex-grow: 1;
     position: relative;
-    z-index: 3;
     display: flex;
-    text-align: center;
+    z-index: 3;
 }
 
 .awesome-bar-li-title {
     position: absolute;
     top: -31px;
     width: 100%;
-    color: blue;
-}
-
-.awesome-bar-li-title-now {
-    text-align: left;
-    color: red;
-}
-
-.awesome-bar-li-title-awesome {
-    text-align: right;
-    color: green;
 }
 
 .awesome-bar-now {
-    background-color: red;
     height: 40px;
     width: 40px;
     display: inline-block;
