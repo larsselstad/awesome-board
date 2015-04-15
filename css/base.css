@@ -1,0 +1,95 @@
+div, h1, h2, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.base-margin-down {
+    margin-bottom: 20px;
+}
+
+.awesome-list {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.awesome-list-board {
+    border-bottom: 1px solid #ddd;
+    
+    padding: 20px;
+}
+
+.awesome-list-footer {
+    text-align: center;
+    
+}
+
+.awesome-bar {
+    list-style: none;
+    display: flex;
+    position: relative;
+    padding: 20px 0;
+}
+
+.awesome-bar:before {
+    content: '';
+    display: block;
+    width: 100%;
+    border-top: 2px solid #666;
+    position: absolute;
+    top: 50%;
+}
+
+.awesome-bar li {  
+    flex-grow: 1;
+    position: relative;
+    z-index: 3;
+    display: flex;
+    text-align: center;
+}
+
+.awesome-bar-li-title {
+    position: absolute;
+    top: -31px;
+    width: 100%;
+    color: blue;
+}
+
+.awesome-bar-li-title-now {
+    text-align: left;
+    color: red;
+}
+
+.awesome-bar-li-title-awesome {
+    text-align: right;
+    color: green;
+}
+
+.awesome-bar-now {
+    background-color: red;
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    border-radius: 20px;
+    margin: auto 0;
+}
+
+.awesome-star-small {
+    margin: auto;
+}
+
+.awesome-bar-awesome {
+    margin: auto 0 auto auto;
+}
+
+.button {
+    padding: 10px;
+    
+}
