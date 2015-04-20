@@ -6,6 +6,7 @@
     <title>awesome board</title>
     <link rel="stylesheet" href="../css/base.css">
     <link rel="stylesheet" href="../css/color.css">
+    <link rel="stylesheet" href="../css/board.css">
 </head>
 
 <body>
@@ -40,6 +41,48 @@
             </svg>
         </li>
     </ul>
+    
+    <div id="board" class="base-margin-down">
+        <div class="board-section color-text-now" id="now">
+            <h2 class="base-margin-down">Now</h2>
+            
+            <ul class="board-list">
+                <li class="board-list-li">Bullet 1</li>
+                <li class="board-list-li">Bullet 2</li>
+                <li class="board-list-li">Bullet 3</li>
+            </ul>
+        </div>
+        
+        <div class="board-section color-text-step" id="step">
+            <h2 class="base-margin-down">Next step</h2>
+            
+            <ul class="no-bullets">
+                <li class="board-list-li"><label for="step_task_0"><input type="checkbox" id="step_task_0"> Bullet 1</label></li>
+                <li class="board-list-li"><label for="step_task_1"><input type="checkbox" id="step_task_1"> Bullet 2</label></li>
+            </ul>
+        </div>
+        
+        <div class="board-section color-text-awesome" id="awesome">
+            <h2 class="base-margin-down">Awesome</h2>
+            
+            <ul class="board-list">
+                <li class="board-list-li">Bullet 1</li>
+                <li class="board-list-li">Bullet 2</li>
+                <li class="board-list-li">Bullet 3</li>
+            </ul>
+        </div>
+        
+        <div class="board-section" id="tasks">
+            <h2 class="base-margin-down">Tasks</h2>
+            
+            <ul class="no-bullets">
+                <li class="board-list-li"><label for="task_0"><input type="checkbox" id="task_0"> Bullet 1</label></li>
+                <li class="board-list-li"><label for="task_1"><input type="checkbox" id="task_1"> Bullet 2</label></li>
+                <li class="board-list-li"><label for="task_2"><input type="checkbox" id="task_2"> Bullet 3</label></li>
+            </ul>
+        </div>
+        
+    </div>
 
     <div>Awesome people:
         <a href="/user/stian">Stian</a>,
