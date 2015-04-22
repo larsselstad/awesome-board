@@ -1,0 +1,61 @@
+{
+    "tittel": "Your awesome boards",
+    "logo": "logo.png",
+    "boards": [
+        {
+            "tittel": "Help me please",
+            "now": [
+                {
+                    "text": "Now Bullet 1",
+                    "user": "Maybe"
+                },
+                {
+                    "text": "Now Bullet 2",
+                    "user": "Maybe"
+                },
+                {
+                    "text": "Now Bullet 3",
+                    "user": "Maybe"
+                }
+            ],
+            "awesome": [
+                {
+                    "text": "Awesome Bullet 1",
+                    "user": "Maybe"
+                },
+                {
+                    "text": "Awesome Bullet 2",
+                    "user": "Maybe"
+                },
+                {
+                    "text": "Awesome Bullet 3",
+                    "user": "Maybe"
+                }
+            ],
+            "steps": [
+                {
+                    "bullets": [
+                        {
+                            "text": "Steps Bullet 1",
+                            "user": "Maybe"
+                        },
+                        {
+                            "text": "Steps Bullet 2",
+                            "user": "Maybe"
+                        }
+                    ],
+                    "tasks": [
+                        {
+                            "text": "Tasks Bullet 1",
+                            "user": "Maybe"
+                        },
+                        {
+                            "text": "Tasks Bullet 2",
+                            "user": "Maybe"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
