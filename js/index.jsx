@@ -1,12 +1,14 @@
 /*global require, document*/
 
 var React = require('react');
+var AwesomeBar = require('./awesomeBar/awesomeBar.jsx');
 
 var HelloWorld = React.createClass({
-    displayName: "HelloWorld",
     render: function() {
         return (
-            <h1>Hello {this.props.message}</h1>
+            <div>
+                <AwesomeBar />
+            </div>
         );
     }
 });
