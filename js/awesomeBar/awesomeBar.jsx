@@ -14,7 +14,7 @@ var AwesomeBar = React.createClass({
         return (
             <ul className="awesome-bar no-bullets">
                 <li>
-                    <h3 className="awesome-bar-li-title text-center color-text-now">Now</h3>
+                    <h3 className="awesome-bar-li-title color-text-now">Now</h3>
                     <div className="awesome-bar-now color-bg-now"></div>
                 </li>
             
