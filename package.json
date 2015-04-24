@@ -1,25 +1,29 @@
 {
-    "name": "awesome-board",
-    "version": "0.0.1",
-    "description": "View and create spotify awesome boards",
-    "main": "index.js",
-    "browserify": {
-        "transform": ["reactify"]
-    },
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "browserify": "browserify -t reactify js/index.jsx -o build/ab.js"
-    },
-    "keywords": [
+  "name": "awesome-board",
+  "version": "0.0.1",
+  "description": "View and create spotify awesome boards",
+  "main": "index.js",
+  "browserify": {
+    "transform": [
+      "reactify"
+    ]
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "browserify": "watchify -t reactify js/index.jsx -o build/ab.js",
+    "watchify": "watchify -t reactify js/index.jsx -o build/ab.js"
+  },
+  "keywords": [
     "awesome",
     "boards",
     "toyota",
     "kata"
   ],
-    "author": "Lars Selstad",
-    "license": "ISC",
-    "devDependencies": {
-        "browserify": "^9.0.8",
-        "reactify": "^1.1.0"
-    }
+  "author": "Lars Selstad",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^9.0.8",
+    "reactify": "^1.1.0",
+    "watchify": "^3.1.2"
+  }
 }
