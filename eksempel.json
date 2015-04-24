@@ -37,10 +37,12 @@
                     "bullets": [
                         {
                             "text": "Steps Bullet 1",
+                            "done": true,
                             "user": "Maybe"
                         },
                         {
                             "text": "Steps Bullet 2",
+                            "done": false,
                             "user": "Maybe"
                         }
                     ],

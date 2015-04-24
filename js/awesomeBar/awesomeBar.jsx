@@ -4,25 +4,8 @@ var React = require('react');
 var AwesomeBarStep = require('./awesomeBarStep.jsx');
 
 var AwesomeBar = React.createClass({
-    getInitialState: function () {
-        return { 
-            steps: [
-                {
-                    text: "Steps Bullet 1",
-                    done: true,
-                    user: "Maybe"
-                },
-                {
-                    text: "Steps Bullet 2",
-                    done: "false",
-                    user: "Maybe"
-                }
-            ]
-        };
-    },
-    
     render: function() {
-        var awesomeBarSteps = this.state.steps.map(function(el, i) {
+        var awesomeBarSteps = this.props.steps.map(function(el, i) {
             return (
                 <AwesomeBarStep number={i + 1} key={i} done={el.done} />
             );     

@@ -1,16 +1,17 @@
 /*global require, document*/
 
 var React = require('react');
-var AwesomeBar = require('./awesomeBar/awesomeBar.jsx');
+var json = require('../eksempel.json');
+var AwesomeList = require('./awesomeList/awesomeList.jsx');
 
-var HelloWorld = React.createClass({
+var App = React.createClass({
     render: function() {
         return (
-            <div>
-                <AwesomeBar />
-            </div>
+            <AwesomeList boards={this.props.data.boards} />
         );
     }
 });
 
-React.render(<HelloWorld message="world" />, document.body);
+var app = React.createElement(App, {data: json});
+
+React.render(app, document.body);
