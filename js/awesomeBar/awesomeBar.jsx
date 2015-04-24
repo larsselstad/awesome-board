@@ -24,7 +24,7 @@ var AwesomeBar = React.createClass({
     render: function() {
         var awesomeBarSteps = this.state.steps.map(function(el, i) {
             return (
-                <AwesomeBarStep number={i + 1} done={el.done} />
+                <AwesomeBarStep number={i + 1} key={i} done={el.done} />
             );     
         });
         
@@ -38,9 +38,9 @@ var AwesomeBar = React.createClass({
                 {awesomeBarSteps}
                 
                 <li>
-                   <h3 class="awesome-bar-li-title text-right color-text-awesome">Awesome</h3>
-                    <svg class="awesome-star-small awesome-bar-awesome" xmlns="http://www.w3.org/2000/svg" width="84" height="75" viewBox="0 0 51 48">
-                        <path fill="#0f0" stroke="#0f0" stroke-width="2" d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z"/>
+                   <h3 className="awesome-bar-li-title text-right color-text-awesome">Awesome</h3>
+                    <svg className="awesome-star-small awesome-bar-awesome" xmlns="http://www.w3.org/2000/svg" width="84" height="75" viewBox="0 0 51 48">
+                        <path fill="#0f0" stroke="#0f0" strokeWidth="2" d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z"/>
                     </svg>
                 </li>
             </ul>
