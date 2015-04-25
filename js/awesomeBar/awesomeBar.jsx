@@ -6,8 +6,12 @@ var AwesomeBarStep = require('./awesomeBarStep.jsx');
 var AwesomeBar = React.createClass({
     render: function() {
         var awesomeBarSteps = this.props.steps.map(function(el, i) {
+            var allDone = el.bullets.every(function (el) {
+                return el.done;
+            });
+            
             return (
-                <AwesomeBarStep number={i + 1} key={i} done={el.done} />
+                <AwesomeBarStep number={i + 1} key={i} done={allDone} />
             );     
         });
         

@@ -154,7 +154,7 @@
                     "bullets": [
                         {
                             "text": "Step dummy 1",
-                            "done": false,
+                            "done": true,
                             "user": "Maybe"
                         }
                     ],

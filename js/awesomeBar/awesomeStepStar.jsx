@@ -4,7 +4,7 @@ var React = require('react');
 
 var AwesomeStar = React.createClass({
     render: function () {
-        var fillColor = this.props.done === "true" ? '#00f' : '#fff';
+        var fillColor = this.props.done ? '#00f' : '#fff';
         
         return (
             <svg className="awesome-star-small" xmlns="http://www.w3.org/2000/svg" width="65" height="55" viewBox="0 0 51 48">
