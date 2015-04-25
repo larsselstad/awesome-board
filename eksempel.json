@@ -3,32 +3,36 @@
     "logo": "logo.png",
     "boards": [
         {
-            "tittel": "Help me please",
+            "tittel": "My first awesome board",
             "now": [
                 {
-                    "text": "Now Bullet 1",
+                    "text": "I know Backbone",
                     "user": "Maybe"
                 },
                 {
-                    "text": "Now Bullet 2",
+                    "text": "React is gaining momentum",
                     "user": "Maybe"
                 },
                 {
-                    "text": "Now Bullet 3",
+                    "text": "I have not learned something new in a while",
                     "user": "Maybe"
                 }
             ],
             "awesome": [
                 {
-                    "text": "Awesome Bullet 1",
+                    "text": "Get React complitly",
                     "user": "Maybe"
                 },
                 {
-                    "text": "Awesome Bullet 2",
+                    "text": "Make Awesome boards in React",
                     "user": "Maybe"
                 },
                 {
-                    "text": "Awesome Bullet 3",
+                    "text": "Finish my transfer hackathon page",
+                    "user": "Maybe"
+                },
+                {
+                    "text": "Show off isomorphic javascript in Node and Java",
                     "user": "Maybe"
                 }
             ],
@@ -36,23 +40,128 @@
                 {
                     "bullets": [
                         {
-                            "text": "Steps Bullet 1",
+                            "text": "Go through the React tutorial",
                             "done": true,
                             "user": "Maybe"
                         },
                         {
-                            "text": "Steps Bullet 2",
+                            "text": "Start on the awesome board project",
+                            "done": false,
+                            "user": "Maybe"
+                        },
+                        {
+                            "text": "Make awesome boards showable on Teamlunsj",
                             "done": false,
                             "user": "Maybe"
                         }
                     ],
                     "tasks": [
                         {
-                            "text": "Tasks Bullet 1",
+                            "text": "Get the data struktur ready",
+                            "done": true,
                             "user": "Maybe"
                         },
                         {
-                            "text": "Tasks Bullet 2",
+                            "text": "Get the views ready",
+                            "done": false,
+                            "user": "Maybe"
+                        },
+                        {
+                            "text": "Get the navigation ready",
+                            "done": false,
+                            "user": "Maybe"
+                        }
+                    ]
+                }, 
+                {
+                    "bullets": [
+                        {
+                            "text": "Navigate to all awesome steps",
+                            "done": false,
+                            "user": "Maybe"
+                        },
+                        {
+                            "text": "Interaction with user changes",
+                            "done": false,
+                            "user": "Maybe"
+                        }
+                    ],
+                    "tasks": [
+                        {
+                            "text": "Step view can show more then one step",
+                            "done": false,
+                            "user": "Maybe"
+                        },
+                        {
+                            "text": "User can check tasks as done",
+                            "done": false,
+                            "user": "Maybe"
+                        },
+                        {
+                            "text": "User can add tasks",
+                            "done": false,
+                            "user": "Maybe"
+                        }
+                    ]
+                }, 
+                {
+                    "bullets": [
+                        {
+                            "text": "Run awesome boards on server",
+                            "done": false,
+                            "user": "Maybe"
+                        },
+                        {
+                            "text": "Users",
+                            "done": false,
+                            "user": "Maybe"
+                        }
+                    ],
+                    "tasks": [
+                        {
+                            "text": "Write tasks",
+                            "done": false,
+                            "user": "Maybe"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tittel": "Awesome dummy board",
+            "now": [
+                {
+                    "text": "Now dummy 1",
+                    "user": "Maybe"
+                },
+                {
+                    "text": "Now dummy 2",
+                    "user": "Maybe"
+                },
+                {
+                    "text": "Now dummy 3",
+                    "user": "Maybe"
+                }
+            ],
+            "awesome": [
+                {
+                    "text": "Awesome dummy 1",
+                    "user": "Maybe"
+                }
+            ],
+            "steps": [
+                {
+                    "bullets": [
+                        {
+                            "text": "Step dummy 1",
+                            "done": false,
+                            "user": "Maybe"
+                        }
+                    ],
+                    "tasks": [
+                        {
+                            "text": "Step dummy 2",
+                            "done": false,
                             "user": "Maybe"
                         }
                     ]

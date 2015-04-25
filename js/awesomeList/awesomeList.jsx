@@ -9,7 +9,7 @@ var AwesomeListLi = React.createClass({
         var board = this.props.board;
         
         return (
-            <li>
+            <li className="base-margin-down">
                 <h1>{this.props.tittel}</h1>
                 <AwesomeBar steps={this.props.steps} />
                 {this.props.showBoard ? <AwesomeBoard board={board} /> : null}
