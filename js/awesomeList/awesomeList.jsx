@@ -10,7 +10,7 @@ var AwesomeListLi = React.createClass({
         
         return (
             <li className="base-margin-down">
-                <h1>{this.props.tittel}</h1>
+                <h1><a href={/board/ + this.props.id}>{this.props.tittel}</a></h1>
                 <AwesomeBar steps={this.props.steps} />
                 {this.props.showBoard ? <AwesomeBoard board={board} /> : null}
                 <div>Awesome people: <a href="/user/stian">Stian</a>, <a href="/user/Lars">Lars</a>, <a href="/user/mats">Mats</a></div>
@@ -24,7 +24,7 @@ var AwesomeList = React.createClass({
         var listItems = this.props.boards.map(function (el, i, boards) {
                 return (
                     // show awesome board if there is just 1 board
-                    <AwesomeListLi tittel={el.tittel} steps={el.steps} showBoard={boards.length === 1} board={el} key={i} />
+                    <AwesomeListLi id={i} tittel={el.tittel} steps={el.steps} showBoard={boards.length === 1} board={el} key={i} />
                 );
             });
         
