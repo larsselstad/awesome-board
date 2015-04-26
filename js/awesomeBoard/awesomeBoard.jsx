@@ -10,7 +10,7 @@ var AwesomeBoard = React.createClass({
     render: function() {
         var board = this.props.board;
         
-        console.log(board.steps[0]);
+        //console.log(board.steps[0]);
         
         return (
             <div id="board" className="base-margin-down">
