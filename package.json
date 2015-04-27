@@ -11,7 +11,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "browserify": "watchify -t reactify js/index.jsx -o build/ab.js",
-    "watchify": "watchify -t reactify js/index.jsx -o build/ab.js"
+    "watchify": "watchify -t reactify js/index.jsx -o build/ab.js",
+    "serve": "node js/server.js"  
   },
   "keywords": [
     "awesome",
@@ -25,5 +26,8 @@
     "browserify": "^9.0.8",
     "reactify": "^1.1.0",
     "watchify": "^3.1.2"
+  },
+  "dependencies": {
+    "ecstatic": "^0.7.4"
   }
 }
