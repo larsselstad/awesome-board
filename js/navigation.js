@@ -33,19 +33,14 @@ module.exports = {
                 
                 eventEmitter.emit('url', jsonClone);
 
-                // TODO: History krever server
-                //history.pushState(jsonClone, uri, uri);
+                history.pushState(jsonClone, uri, uri);
             }
         });
 
-        // TODO: History krever server
-        //history.replaceState(json, '', '/');
+        history.replaceState(json, '', '/');
 
         window.onpopstate = function(event) {
-            console.log("location: " + document.location + ", state: " + JSON.stringify(event.state));
-            
-            // TODO: render new state on pop state
-            //eventEmitter.emit('url', JSON.stringify(event.state));
+            eventEmitter.emit('url', event.state);
         };
     }
 };
