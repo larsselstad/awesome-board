@@ -2,7 +2,7 @@ var http = require('http');
 var ecstatic = require('ecstatic');
 
 var port = 8090;
-var folder = __dirname + '/../';
+var folder = __dirname + '/../static';
  
 http.createServer(
   ecstatic({
