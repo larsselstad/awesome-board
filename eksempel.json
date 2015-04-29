@@ -4,6 +4,7 @@
     "boards": [
         {
             "tittel": "My first awesome board",
+            "users": ["Lars", "Hans"],
             "now": [
                 {
                     "text": "I know Backbone",
@@ -129,6 +130,7 @@
         },
         {
             "tittel": "Awesome dummy board",
+            "users": ["Gunnar", "Mats"],
             "now": [
                 {
                     "text": "Now dummy 1",

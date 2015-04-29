@@ -7,13 +7,14 @@ var AwesomeBoard = require('../awesomeBoard/awesomeBoard.jsx');
 var AwesomeListLi = React.createClass({
     render: function() {
         var board = this.props.board;
+        var users = board.users.join(', ');
         
         return (
             <li className="base-margin-down">
                 <h1><a href={/board/ + this.props.id}>{this.props.tittel}</a></h1>
                 <AwesomeBar steps={this.props.steps} />
                 {this.props.showBoard ? <AwesomeBoard board={board} /> : null}
-                <div>Awesome people: <a href="/user/stian">Stian</a>, <a href="/user/Lars">Lars</a>, <a href="/user/mats">Mats</a></div>
+                <div>Awesome people: {users}</div>
             </li>
         );
     }
