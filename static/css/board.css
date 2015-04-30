@@ -7,7 +7,6 @@
 }
 
 .board-section {
-    
     transition: all 2s;
     width: 50%;
     box-sizing: border-box;
@@ -25,6 +24,11 @@
 
 .board-list-li-checkbox {
     vertical-align: bottom;
+}
+
+.awesomeLi {
+    border-bottom: 1px solid black;
+    padding: 30px 20px;
 }
 
 #now {

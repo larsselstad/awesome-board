@@ -10,7 +10,7 @@ var AwesomeListLi = React.createClass({
         var users = board.users.join(', ');
         
         return (
-            <li className="base-margin-down">
+            <li className="base-margin-down awesomeLi">
                 <h1><a href={/board/ + this.props.id}>{this.props.tittel}</a></h1>
                 <AwesomeBar steps={this.props.steps} />
                 {this.props.showBoard ? <AwesomeBoard board={board} /> : null}

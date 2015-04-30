@@ -2,7 +2,7 @@
 
 var React = require('react');
 var EventEmitter = require("events").EventEmitter;
-var json = require('../eksempel.json');
+var json = require('../sb1.json');
 var AwesomeList = require('./awesomeList/awesomeList.jsx');
 var navigation = require('./navigation');
 
