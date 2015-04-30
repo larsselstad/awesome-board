@@ -1,0 +1,493 @@
+{
+    "tittel": "Your awesome boards",
+    "logo": "logo.png",
+    "boards": [
+        {
+            "tittel": "Øke produktiviten ved å dokumentere rutiner og fjerne waste",
+            "users": ["Daoshan"],
+            "now": [
+                {
+                    "text": "Vet ikke",
+                    "user": "Maybe"
+                }
+            ],
+            "awesome": [
+                {
+                    "text": "Automatisk dokumenterering av alt: commits, møter, testing, deploy, redeploy",
+                    "user": "Maybe"
+                }
+            ],
+            "steps": [
+                {
+                    "bullets": [
+                        {
+                            "text": "Lag steps",
+                            "done": false,
+                            "user": "Maybe"
+                        }
+                    ],
+                    "tasks": [
+                        {
+                            "text": "Lag tasks",
+                            "done": false,
+                            "user": "Maybe"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tittel": "Dele opp pm-master",
+            "users": ["Inge"],
+            "now": [
+                {
+                    "text": "pm-master er en middels stor app som det tar 5-6 minutter å bygge",
+                    "user": "Maybe"
+                }
+            ],
+            "awesome": [
+                {
+                    "text": "Dele opp i enda mindre biter",
+                    "user": "Maybe"
+                }
+            ],
+            "steps": [
+                {
+                    "bullets": [
+                        {
+                            "text": "Lag steps",
+                            "done": false,
+                            "user": "Maybe"
+                        }
+                    ],
+                    "tasks": [
+                        {
+                            "text": "Lag tasks",
+                            "done": false,
+                            "user": "Maybe"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tittel": "Felles grafisk uttrykk",
+            "users": ["Jan Erik"],
+            "now": [
+                {
+                    "text": "Minst 2-3 forskjellige grafiske uttrykk i portalen og åpne sider.",
+                    "user": "Maybe"
+                }
+            ],
+            "awesome": [
+                {
+                    "text": "1 design",
+                    "user": "Maybe"
+                }
+            ],
+            "steps": [
+                {
+                    "bullets": [
+                        {
+                            "text": "Lag steps",
+                            "done": false,
+                            "user": "Maybe"
+                        }
+                    ],
+                    "tasks": [
+                        {
+                            "text": "Lag tasks",
+                            "done": false,
+                            "user": "Maybe"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tittel": "Bedre arbeidsflyt ved utvikling",
+            "users": ["Lasse"],
+            "now": [
+                {
+                    "text": "Man blir logget ut av nettbanken hvert 5 (?) minutt",
+                    "user": "Maybe"
+                },
+                {
+                    "text": "Bygging og deployment tar lang tid",
+                    "user": "Maybe"
+                },
+                {
+                    "text": "JRebel funker ikke ved mange endringer",
+                    "user": "Maybe"
+                },
+                {
+                    "text": "Får ikke gjort utvikling når BankId er nede",
+                    "user": "Maybe"
+                }
+            ],
+            "awesome": [
+                {
+                    "text": "NPA stacken (demo, mindre apper) inn i BM",
+                    "user": "Maybe"
+                },
+                {
+                    "text": "Innlogginstoken i utvikling",
+                    "user": "Maybe"
+                },
+                {
+                    "text": "Autorefresh ved endringer av frontend",
+                    "user": "Maybe"
+                }
+            ],
+            "steps": [
+                {
+                    "bullets": [
+                        {
+                            "text": "Lag steps",
+                            "done": false,
+                            "user": "Maybe"
+                        }
+                    ],
+                    "tasks": [
+                        {
+                            "text": "Lag tasks",
+                            "done": false,
+                            "user": "Maybe"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tittel": "Statisk ressursserver i prod i Docker",
+            "users": ["Jonas"],
+            "now": [
+                {
+                    "text": "Apache server",
+                    "user": "Maybe"
+                }
+            ],
+            "awesome": [
+                {
+                    "text": "En docker container fra utvikling til prod",
+                    "user": "Maybe"
+                }
+            ],
+            "steps": [
+                {
+                    "bullets": [
+                        {
+                            "text": "Lag steps",
+                            "done": false,
+                            "user": "Maybe"
+                        }
+                    ],
+                    "tasks": [
+                        {
+                            "text": "Lag tasks",
+                            "done": false,
+                            "user": "Maybe"
+                        }
+                    ]
+                }
+            ]
+        }, 
+        {
+            "tittel": "Deploye hver dag",
+            "users": ["Pavel"],
+            "now": [
+                {
+                    "text": "Deploy hver måned",
+                    "user": "Maybe"
+                }
+            ],
+            "awesome": [
+                {
+                    "text": "Automatisk deploy når vi vil",
+                    "user": "Maybe"
+                }
+            ],
+            "steps": [
+                {
+                    "bullets": [
+                        {
+                            "text": "Lag steps",
+                            "done": false,
+                            "user": "Maybe"
+                        }
+                    ],
+                    "tasks": [
+                        {
+                            "text": "Lag tasks",
+                            "done": false,
+                            "user": "Maybe"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tittel": "Bedre logging",
+            "users": ["Simon"],
+            "now": [
+                {
+                    "text": "Ingen standard for hva som logges og til hvor",
+                    "user": "Maybe"
+                }
+            ],
+            "awesome": [
+                {
+                    "text": "Riktig logging på alle nivåer",
+                    "user": "Maybe"
+                },
+                {
+                    "text": "Loggene blir så bra at de kan brukes til statisk",
+                    "user": "Maybe"
+                }
+            ],
+            "steps": [
+                {
+                    "bullets": [
+                        {
+                            "text": "Lag steps",
+                            "done": false,
+                            "user": "Maybe"
+                        }
+                    ],
+                    "tasks": [
+                        {
+                            "text": "Lag tasks",
+                            "done": false,
+                            "user": "Maybe"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tittel": "Grafing",
+            "users": ["Stian"],
+            "now": [
+                {
+                    "text": "Vi vet ikke hvordan applikasjonen brukes",
+                    "user": "Maybe"
+                },
+                {
+                    "text": "Vi vet ikke hvorfor applikasjonen feil (live)",
+                    "user": "Maybe"
+                }
+            ],
+            "awesome": [
+                {
+                    "text": "Utviklere kan følge med på grafen til sin kode",
+                    "user": "Maybe"
+                },
+                {
+                    "text": "Rette feil før de blir meldt",
+                    "user": "Maybe"
+                }
+            ],
+            "steps": [
+                {
+                    "bullets": [
+                        {
+                            "text": "Få tilgang til Splunk",
+                            "done": false,
+                            "user": "Maybe"
+                        },
+                        {
+                            "text": "Lag steps",
+                            "done": false,
+                            "user": "Maybe"
+                        }
+                    ],
+                    "tasks": [
+                        {
+                            "text": "Lag tasks",
+                            "done": false,
+                            "user": "Maybe"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tittel": "Drift(ressurser) blir endel av teamene",
+            "users": ["Vidar"],
+            "now": [
+                {
+                    "text": "Drift sitter for seg",
+                    "user": "Maybe"
+                }
+            ],
+            "awesome": [
+                {
+                    "text": "En/flere driftressurser sitter i teamene for å gjøre deploy enklere",
+                    "user": "Maybe"
+                },
+                {
+                    "text": "Driftere for også lov til å skrive kode :-O",
+                    "user": "Maybe"
+                }
+            ],
+            "steps": [
+                {
+                    "bullets": [
+                        {
+                            "text": "Lag steps",
+                            "done": false,
+                            "user": "Maybe"
+                        }
+                    ],
+                    "tasks": [
+                        {
+                            "text": "Lag tasks",
+                            "done": false,
+                            "user": "Maybe"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tittel": "Teamene får være med på hele prosessen fra ide til produksjon",
+            "users": ["Daoshan"],
+            "now": [
+                {
+                    "text": "CRQer fra PE, PA, banker",
+                    "user": "Maybe"
+                },
+                {
+                    "text": "For lite begrunnelse for hvorfor vi skal lage det",
+                    "user": "Maybe"
+                },
+                {
+                    "text": "For lite begrunnelse for hvorfor nettopp dette prioriteres",
+                    "user": "Maybe"
+                }
+            ],
+            "awesome": [
+                {
+                    "text": "Selvstyrte team",
+                    "user": "Maybe"
+                }
+            ],
+            "steps": [
+                {
+                    "bullets": [
+                        {
+                            "text": "Lag steps",
+                            "done": false,
+                            "user": "Maybe"
+                        }
+                    ],
+                    "tasks": [
+                        {
+                            "text": "Lag tasks",
+                            "done": false,
+                            "user": "Maybe"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tittel": "Automatisk regresjonstesting",
+            "users": ["Jonas", "Mats", "Lars"],
+            "now": [
+                {
+                    "text": "Regresjonstesting gjøres manuelt",
+                    "user": "Maybe"
+                },
+                {
+                    "text": "Få store endringer pga frykt for regresjons",
+                    "user": "Maybe"
+                }
+            ],
+            "awesome": [
+                {
+                    "text": "Automatisk regresjonstester som alle kan skrive",
+                    "user": "Maybe"
+                },
+                {
+                    "text": "Automatisk regresjonstester som kan kjøres i alle browsere",
+                    "user": "Maybe"
+                },
+                {
+                    "text": "Automatisk regresjonstester som dokumentasjon",
+                    "user": "Maybe"
+                }
+            ],
+            "steps": [
+                {
+                    "bullets": [
+                        {
+                            "text": "POC på sahi",
+                            "done": true,
+                            "user": "Maybe"
+                        },
+                        {
+                            "text": "POC på FITNESS + Webdriver",
+                            "done": true,
+                            "user": "Maybe"
+                        },
+                        {
+                            "text": "POC på FITNESS + Webdriver + Saucelabs",
+                            "done": true,
+                            "user": "Maybe"
+                        }
+                    ],
+                    "tasks": [
+                        {
+                            "text": "Lag tasks",
+                            "done": false,
+                            "user": "Maybe"
+                        }
+                    ]
+                },
+                {
+                    "bullets": [
+                        {
+                            "text": "Gjør innlogging automatisk",
+                            "done": false,
+                            "user": "Maybe"
+                        },
+                        {
+                            "text": "POC på dokumentasjon",
+                            "done": false,
+                            "user": "Maybe"
+                        },
+                        {
+                            "text": "Gjør generingen av tester så enkelt som mulig",
+                            "done": true,
+                            "user": "Maybe"
+                        }
+                    ],
+                    "tasks": [
+                        {
+                            "text": "Lag tasks",
+                            "done": false,
+                            "user": "Maybe"
+                        }
+                    ]
+                },
+                {
+                    "bullets": [
+                        {
+                            "text": "Skriv veldig mange FITNESS tester",
+                            "done": false,
+                            "user": "Maybe"
+                        }
+                    ],
+                    "tasks": [
+                        {
+                            "text": "Lag tasks",
+                            "done": false,
+                            "user": "Maybe"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
