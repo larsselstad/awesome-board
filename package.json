@@ -2,13 +2,14 @@
   "name": "awesome-board",
   "version": "0.0.1",
   "description": "View and create spotify awesome boards",
-  "main": "index.js",
+  "main": "js/server.js",
   "browserify": {
     "transform": [
       "reactify"
     ]
   },
   "scripts": {
+    "start": "node js/server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "browserify": "browserify -t reactify js/index.jsx -o static/ab.js",
     "watchify": "watchify -t reactify js/index.jsx -o static/ab.js",
@@ -29,5 +30,13 @@
   },
   "dependencies": {
     "ecstatic": "^0.7.4"
-  }
+  },
+  "engines": {
+    "node": "0.10.26"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/larsselstad/awesome-board"
+  },
+  "license": "MIT"
 }
