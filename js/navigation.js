@@ -1,12 +1,8 @@
 /*globals module, document, history, window*/
 
-function copy (obj) {
-    return JSON.parse(JSON.stringify(obj));
-}
-
 function getIndex(str) {
     var i = str.split('/')[2];
-    
+
     return parseInt(i, 10);
 }
 
@@ -15,7 +11,7 @@ function getTargetUri(href, origin) {
 }
 
 module.exports = {
-    init: function (eventEmitter, json) {
+    init: function (eventEmitter, model) {
         var body = document.querySelector('body');
 
         body.addEventListener('click', function (e) {
@@ -26,20 +22,22 @@ module.exports = {
 
                 var uri = getTargetUri(target.href, target.origin);
                 var index = getIndex(uri);
-                
-                var jsonClone = copy(json);
-                
-                jsonClone.boards = jsonClone.boards.slice(index, index + 1);
-                
-                eventEmitter.emit('url', jsonClone);
 
-                history.pushState(jsonClone, uri, uri);
+                var board = model.getBoard(index);
+
+                // TODO: Kanskje bare la modelen sende dette eventet når modelen endres
+                eventEmitter.emit('url', board);
+
+                history.pushState(board, uri, uri);
             }
         });
 
-        history.replaceState(json, '', '/');
+        // TODO: Håndter state ved root. Må være oppdatert model
+        history.replaceState(model.get(), '', '/');
 
-        window.onpopstate = function(event) {
+        window.onpopstate = function (event) {
+            debugger;
+            
             eventEmitter.emit('url', event.state);
         };
     }

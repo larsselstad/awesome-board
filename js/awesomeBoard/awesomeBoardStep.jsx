@@ -7,7 +7,7 @@ var AwesomeBoardStep = React.createClass({
     render: function() {
         var step = this.props.step.bullets.map(function (el, i) {
             return (
-                <AwesomeBoardTask id={i} text={el.text} done={el.done} prefix="step" />
+                <AwesomeBoardTask id={i} text={el.text} done={el.done} prefix="bullets" />
             );    
         });
         

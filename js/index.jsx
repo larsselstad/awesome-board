@@ -2,7 +2,7 @@
 
 var React = require('react');
 var EventEmitter = require("events").EventEmitter;
-var json = require('../sb1.json');
+var model = require('./model');
 var AwesomeList = require('./awesomeList/awesomeList.jsx');
 var navigation = require('./navigation');
 
@@ -11,7 +11,7 @@ var ee = new EventEmitter();
 var App = React.createClass({
     getInitialState: function () {
         return {
-            data: json
+            data: model.get()
         };
     },
 
@@ -20,6 +20,10 @@ var App = React.createClass({
             this.setState({
                 data: data
             });
+        }.bind(this));
+        
+        model.on('change', function (currentModel) {
+            this.setState({data: currentModel});
         }.bind(this));
     },
 
@@ -34,4 +38,4 @@ var app = React.createElement(App, {eventEmitter: ee});
 
 React.render(app, document.body);
 
-navigation.init(ee, json);
+navigation.init(ee, model);

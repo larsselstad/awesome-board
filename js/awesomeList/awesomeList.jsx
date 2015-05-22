@@ -22,6 +22,8 @@ var AwesomeListLi = React.createClass({
 
 var AwesomeList = React.createClass({
     render: function() {
+    console.log(this.props.boards);
+    
         var listItems = this.props.boards.map(function (el, i, boards) {
                 return (
                     // show awesome board if there is just 1 board
